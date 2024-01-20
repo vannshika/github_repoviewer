@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    margin: 8px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#repositoriesList {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 60vh;
+    overflow-y: auto;
+    max-width:150vh;
+}
+
+#userDetailsContainer {
+    margin-top: 20px;
+}
+.repository-container {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    display:flex;
+    width:60vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.repository-container h3 {
+    margin-bottom: 5px;
+}
+.repository-container p {
+    margin: 5px 0;
+    
+}
+.user-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.languages-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language-badge {
+    border:1px solid black;
+    padding: 3px 8px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.pagination button {
+    margin: 0 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+.languages-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language-badge {
+    border: 1px solid black;
+    padding: 3px 8px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
